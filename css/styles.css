@@ -17,7 +17,7 @@
 /*----------Base styles------------*/
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--navy-blue);
+  color: var(--slate);
   background-color: var(--white);
 }
 
@@ -25,9 +25,7 @@ body {
 .section-title {
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 /*---------Cancelation------------*/
@@ -48,17 +46,17 @@ body {
 .header-navigation {
 }
 .header-logo-link {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: currentColor;
+  color: var(--iris);
 }
 
-.accent {
-  color: var(--iris);
+.span-header-logo {
+  color: var(--navy-blue);
 }
 
 .header-navigation-list {
@@ -72,7 +70,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.header-navigation-link:active {
+.header-navigation-link:hover,
+.header-navigation-link:focus {
   color: var(--ocean);
 }
 .header-adress {
@@ -86,18 +85,18 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.header-adress-link:active {
+.header-adress-link:focus,
+.header-adress-link:hover {
   color: var(--ocean);
 }
-
-/*---------HERO-----------*/
+/*!---------BODY-STUDIO-----------*/
+/*---------Hero-----------*/
 .hero {
   background-color: var(--navy-blue);
 }
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
 
@@ -108,17 +107,13 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
-}
-.hero-button {
-  background-color: var(--ocean);
+  cursor: pointer;
 }
 
-/*---------ADVANTAGES------------*/
+/*---------Advantages------------*/
 .advantage {
 }
 .advantage-list {
@@ -140,7 +135,7 @@ body {
   color: var(--slate);
 }
 
-/*---------WORK------------*/
+/*---------Work------------*/
 .work {
 }
 .work-title {
@@ -152,70 +147,45 @@ body {
 .work-img {
 }
 
-/*---------TEAM------------*/
+/*---------Team------------*/
 .team {
+  background-color: var(--cloud);
 }
 .team-title {
 }
 .team-list {
 }
 .team-item {
+  background-color: var(--white);
 }
-.team-name {
+.team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.team-specialty {
+.team-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
 }
 
-/*---------FOOTER------------*/
+/*!---------BODY-PORTFOLIO------------*/
 
-.footer {
-  background-color: var(--navy-blue);
-}
-.footer-logo-link {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  color: var(--cloud);
-}
-.accent {
-  color: var(--iris);
-}
-
-.footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--cloud);
-}
-
-/*!---------PORTFOLIO------------*/
-
-/*---------FILTER------------*/
-.filter {
-}
-.filter-list {
-}
-.filter-button {
+<!-- -------------- Filter ------------------- -- > .filter-button {
+  font-family: "Roboto" _ sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
+  cursor: pointer;
 }
-.filter-button:hover {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
@@ -241,4 +211,29 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
+}
+
+/*!---------FOOTER------------*/
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-logo-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+.span-footer-logo {
+  color: var(--cloud);
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
 }
