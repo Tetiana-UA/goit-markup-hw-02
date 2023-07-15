@@ -144,7 +144,6 @@ body {
 /*---------Work------------*/
 .work {
 }
-}
 
 /*---------Team------------*/
 .team {
@@ -171,12 +170,11 @@ body {
   color: var(--slate);
 }
 
-
 /*!---------BODY-PORTFOLIO------------*/
 
 /*-- -------------- Filter ------ -- */
-  .filter-button{
-font-family: "Roboto", sans-serif;
+.filter-button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -184,8 +182,8 @@ font-family: "Roboto", sans-serif;
   color: var(--iris);
   background-color: var(--cloud);
   cursor: pointer;
-  }
-  .filter-button:hover,
+}
+.filter-button:hover,
 .filter-button:focus {
   color: var(--white);
   background-color: var(--ocean);
