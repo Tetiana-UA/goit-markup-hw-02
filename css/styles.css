@@ -75,7 +75,6 @@ body {
 .header-navigation-link:active {
   color: var(--ocean);
 }
-
 .header-adress {
 }
 .header-adress-list {
@@ -91,7 +90,7 @@ body {
   color: var(--ocean);
 }
 
-/*---------HERO------------*/
+/*---------HERO-----------*/
 .hero {
   background-color: var(--navy-blue);
 }
