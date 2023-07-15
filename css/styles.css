@@ -33,7 +33,6 @@ body {
 /*---------Cancelation------------*/
 .link {
   text-decoration: none;
-  color: currentColor;
 }
 .list {
   list-style-type: none;
